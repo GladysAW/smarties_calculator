@@ -1,0 +1,44 @@
+.button {
+  cursor: pointer;
+  background-color: #613f3ac0;
+  background-image: -webkit-linear-gradient(
+      283deg,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 55%
+    ),
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.15), transparent);
+  border-radius: 50px;
+  box-shadow: 0 0 0 1px #552e28c0 inset,
+    0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 4px 0 0 #9d6c66c0,
+    0 4px 0 1px rgba(0, 0, 0, 0.4), 0 4px 4px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: "Fredoka One", cursive;
+  font-size: 2.5rem;
+
+  line-height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s linear;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: #9d6c66c0;
+
+    top: -1px;
+    box-shadow: 0 0 0 1px #163772 inset,
+      0 0 0 2px rgba(175, 152, 152, 0.9) inset, 0 5px 0 0 #9d6c66c0,
+      0 5px 0 1px rgba(0, 0, 0, 0.4), 0 5px 8px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  &:active {
+    background-color: #474edd;
+    top: 4px;
+
+    box-shadow: 0 0 0 1px #552e28c0 inset,
+      0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 0 #9d6c66c0,
+      0 0 0 1px rgba(0, 0, 0, 0.4), 0 0px 8px 1px rgba(0, 0, 0, 0.5);
+  }
+}

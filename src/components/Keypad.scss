@@ -1,0 +1,47 @@
+.keypad {
+  padding-top: 0.8rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(4, 6rem);
+  gap: 10px;
+
+  .btnAC,
+  .btnNr0 {
+    background-color: #b0070f;
+  }
+  .btnCE,
+  .btnResult {
+    background-color: #7d57a7;
+  }
+  .btnDevide,
+  .btnDot,
+  .btnNr9 {
+    background-color: #006fc0;
+  }
+  .btnNr1,
+  .btnNr6 {
+    background-color: #f4cf18;
+  }
+  .btnNr2,
+  .btnAdd,
+  .btnNr8 {
+    background-color: #db7ba8;
+  }
+  .btnNr3,
+  .btnNr7 {
+    background-color: #61b83f;
+  }
+  .btnNr4,
+  .btnMultiply {
+    background-color: #945211;
+  }
+  .btnNr5,
+  .btnSubtract {
+    background-color: #e9700f;
+  }
+}
+
+.spanned {
+  grid-column: span 2;
+}

@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(130deg, #0fe7dc, #eeede7);
+  position: relative;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 29rem;
+  border: #613f3ac0 solid 10px;
+  border-radius: 35px;
+  padding: 1rem;
+  background-color: #432c29;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.smartiesImg {
+  z-index: 200;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transition: all 1s;
+}

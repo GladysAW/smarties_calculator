@@ -1,0 +1,110 @@
+.display {
+  height: 12rem;
+  background-color: #b86b3048;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 0.75rem;
+
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: rgba(97, 63, 58, 0.5) 0px 0px 0px 5px;
+
+  .guess {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(213, 122, 30, 0.89);
+    border-radius: 15px;
+    padding: 0.6rem;
+    font-weight: bold;
+    border: none;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.75);
+      opacity: 0.75;
+      font-family: "Fredoka One", cursive;
+    }
+
+    &:focus {
+      outline: none;
+      &::placeholder {
+        color: transparent;
+      }
+    }
+  }
+
+  .operation {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+    overflow: auto;
+  }
+
+  .result {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.8rem;
+    background-color: rgb(247, 158, 2);
+    border-radius: 15px;
+    padding: 0.6rem;
+    font-weight: bold;
+    height: 3.3rem;
+  }
+  & > * {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.help {
+  position: fixed;
+  display: inline-flex;
+  left: 5px;
+  bottom: 2rem;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+
+  a {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform 0.25s;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  :before,
+  :after {
+    position: absolute;
+
+    height: 55px;
+    width: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #744b44c0;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+
+  a:before {
+    content: "need help?";
+    color: #fff;
+    background: #432c29;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  a:after {
+    content: "click me!";
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  a:hover {
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+}
