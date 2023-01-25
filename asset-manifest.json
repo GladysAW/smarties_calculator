@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/smarties_calculator/static/css/main.809af7bd.css",
+    "main.js": "/smarties_calculator/static/js/main.d72740ab.js",
+    "static/media/winning-teddy-bear1.png": "/smarties_calculator/static/media/winning-teddy-bear1.27e056622dc3ed1c7c32.png",
+    "static/media/winning-teddy-bear3.png": "/smarties_calculator/static/media/winning-teddy-bear3.57e7fd016e22aebe1ba0.png",
+    "static/media/sad-teddy-bear2.png": "/smarties_calculator/static/media/sad-teddy-bear2.24f343fcc99f11782224.png",
+    "static/media/teddy-bear-confused.png": "/smarties_calculator/static/media/teddy-bear-confused.161a37dc44bdd0f74cd7.png",
+    "static/media/teddy-bear-embarrassed.png": "/smarties_calculator/static/media/teddy-bear-embarrassed.19ccd17921acffba88c5.png",
+    "static/media/sad-teddy-bear3.png": "/smarties_calculator/static/media/sad-teddy-bear3.92786f39a143d50883ac.png",
+    "static/media/winning-teddy-bear2.png": "/smarties_calculator/static/media/winning-teddy-bear2.86a3a1ef9cf07229d38a.png",
+    "static/media/sad-teddy-bear.png": "/smarties_calculator/static/media/sad-teddy-bear.a44dc3a02c1406eac203.png",
+    "static/media/winning-teddy-bear5.png": "/smarties_calculator/static/media/winning-teddy-bear5.c3c909a0c6cb3306277b.png",
+    "static/media/winning-teddy-bear4.png": "/smarties_calculator/static/media/winning-teddy-bear4.733ead8e59fe9a35d2d0.png",
+    "static/media/teddy-bear-hopefull.png": "/smarties_calculator/static/media/teddy-bear-hopefull.f6e5a4678863e474f2cd.png",
+    "static/media/smarties_pic.png": "/smarties_calculator/static/media/smarties_pic.0c077ff60bde57668baf.png",
+    "static/media/winning-teddy-bear6.png": "/smarties_calculator/static/media/winning-teddy-bear6.2c02e3e2d4370aafad42.png",
+    "index.html": "/smarties_calculator/index.html",
+    "main.809af7bd.css.map": "/smarties_calculator/static/css/main.809af7bd.css.map",
+    "main.d72740ab.js.map": "/smarties_calculator/static/js/main.d72740ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.809af7bd.css",
+    "static/js/main.d72740ab.js"
+  ]
+}
