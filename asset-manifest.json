@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/smarties_calculator/static/css/main.809af7bd.css",
+    "main.css": "/smarties_calculator/static/css/main.808d962e.css",
     "main.js": "/smarties_calculator/static/js/main.d72740ab.js",
     "static/media/winning-teddy-bear1.png": "/smarties_calculator/static/media/winning-teddy-bear1.27e056622dc3ed1c7c32.png",
     "static/media/winning-teddy-bear3.png": "/smarties_calculator/static/media/winning-teddy-bear3.57e7fd016e22aebe1ba0.png",
@@ -16,11 +16,11 @@
     "static/media/smarties_pic.png": "/smarties_calculator/static/media/smarties_pic.0c077ff60bde57668baf.png",
     "static/media/winning-teddy-bear6.png": "/smarties_calculator/static/media/winning-teddy-bear6.2c02e3e2d4370aafad42.png",
     "index.html": "/smarties_calculator/index.html",
-    "main.809af7bd.css.map": "/smarties_calculator/static/css/main.809af7bd.css.map",
+    "main.808d962e.css.map": "/smarties_calculator/static/css/main.808d962e.css.map",
     "main.d72740ab.js.map": "/smarties_calculator/static/js/main.d72740ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.809af7bd.css",
+    "static/css/main.808d962e.css",
     "static/js/main.d72740ab.js"
   ]
 }
