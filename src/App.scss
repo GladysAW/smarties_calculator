@@ -36,4 +36,8 @@ body {
   bottom: 0;
   right: 0;
   transition: all 1s;
+
+  @media screen and (max-width: 900px) {
+    visibility: hidden;
+  }
 }

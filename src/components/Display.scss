@@ -68,6 +68,10 @@
   margin: 0 15px;
   perspective: 1000px;
 
+  @media screen and (max-width: 880px) {
+    visibility: hidden;
+  }
+
   a {
     font-size: 20px;
     font-weight: bold;
