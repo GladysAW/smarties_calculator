@@ -15,7 +15,6 @@
   font-family: "Fredoka One", cursive;
   font-size: 2.5rem;
 
-  line-height: 61px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +22,13 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 0.2s linear;
   margin-bottom: 5px;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 2rem;
+  }
+  @media only screen and (min-width: 701px) and (max-width: 1200px) {
+    font-size: 2.25rem;
+  }
 
   &:hover {
     background-color: #9d6c66c0;
